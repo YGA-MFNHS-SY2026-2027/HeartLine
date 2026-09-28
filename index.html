@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeartLine — MFNHS Guidance & Mental Health Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="bg-decor" aria-hidden="true">
+  <div class="decor-blob d1"></div>
+  <div class="decor-blob d2"></div>
+  <div class="decor-blob d3"></div>
+  <div class="decor-blob d4"></div>
+</div>
+
+<header>
+  <div class="nav">
+    <div class="wordmark"><span>Heart</span><span>Line</span></div>
+    <nav class="navlinks" id="desktop-nav">
+      <a href="#about">About</a>
+      <a href="#signs">When to reach out</a>
+      <a href="#resources">Get support</a>
+      <a href="#message">Send a note</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-hotline" href="tel:+639532639727">Call now</a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawer-overlay"></div>
+<aside class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <div class="wordmark"><span>Heart</span><span>Line</span></div>
+    <button class="drawer-close" id="drawer-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="drawer-links" id="drawer-links">
+    <a href="#about">About</a>
+    <a href="#signs">When to reach out</a>
+    <a href="#resources">Get support</a>
+    <a href="#message">Send a note</a>
+  </nav>
+  <div class="drawer-quick">
+    <div class="drawer-quick-label">Quick contact</div>
+    <a class="quick-btn call" href="tel:+639532639727">Call the hotline</a>
+    <a class="quick-btn email" href="https://mail.google.com/mail/?view=cm&fs=1&to=youthguidanceadvocates@gmail.com" target="_blank" rel="noopener">Email YGA on Gmail</a>
+    <button class="quick-btn" type="button" data-copy="+639532639727">Copy hotline number</button>
+  </div>
+</aside>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow-line">A guidance project by Youth Guidance Advocates, MFNHS</div>
+        <h1>Someone is ready to listen, <em>anytime it gets heavy.</em></h1>
+        <p class="lede">HeartLine is a safe line for MFNHS students to talk about what's weighing on them — stress, home, friendships, or days that just feel too much. Walang hatol, walang pressure. Kausapin lang.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:+639532639727">Call or text the hotline</a>
+          <a class="btn btn-ghost" href="#resources">See all ways to connect</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img class="hero-photo" src="images/hero.jpg" alt="" onerror="this.style.display='none'">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="heart-mark">
+          <svg width="150" height="150" viewBox="0 0 150 150" fill="none">
+            <path d="M75 132C75 132 22 100 22 60C22 39 38 24 57 24C67 24 75 30 75 30C75 30 83 24 93 24C112 24 128 39 128 60C128 100 75 132 75 132Z" fill="#FF7AD9"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <h2>What HeartLine actually is</h2>
+      <div class="about-copy">
+        <p>HeartLine is run by Youth Guidance Advocates (YGA), a student-led initiative focused on supporting anyone who feels hesitant or afraid to speak up. Our mission is to help students navigate personal and academic challenges, work toward their goals, and take care of their overall well-being.</p>
+        <p>YGA is not the Discipline Office. We don't handle code-of-conduct violations or behavior management — our focus is entirely on personal development, emotional support, and guidance, so every student can thrive in a safe environment.</p>
+        <p>Every message goes to a real person: our Guidance Counselor Designate or a trained YGA volunteer. No bots, no scripts read off a screen — just someone from your own school who can help you figure out the next step, whether that's a listening ear, a referral, or just checking in again tomorrow.</p>
+        <div class="stat-row">
+          <div class="stat"><b>1</b><span>hotline, always reachable</span></div>
+          <div class="stat"><b>0</b><span>judgment, ever</span></div>
+          <div class="stat"><b>3</b><span>ways to reach out</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="signs">
+    <div class="wrap">
+      <h2>What we're here to do</h2>
+      <p>YGA's goals, in plain terms — this is what we're working toward every day.</p>
+      <div class="signs-grid">
+        <div class="sign-card glass">
+          <h3>A welcoming space</h3>
+          <p>Somewhere everyone feels heard, valued, and free from the fear of rejection or judgment.</p>
+        </div>
+        <div class="sign-card glass">
+          <h3>A more understanding campus</h3>
+          <p>Advocating for youth needs and directly addressing the daily struggles students face.</p>
+        </div>
+        <div class="sign-card glass">
+          <h3>Real guidance, not just words</h3>
+          <p>Practical resources and advice that actually help with well-being and success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2 style="font-size:2rem; margin-bottom:10px;">How YGA can support you</h2>
+      <p style="color:var(--ink-soft); max-width:58ch; margin-bottom:36px;">Three kinds of support, all reachable through the same hotline or email.</p>
+      <div class="res-grid">
+        <div class="res-card hotline">
+          <div>
+            <div class="label">Guidance & Advice</div>
+            <div class="value" style="font-size:1.15rem;">Confidential support</div>
+          </div>
+          <div class="note">Tailored help to navigate personal issues and student life.</div>
+        </div>
+        <div class="res-card email">
+          <div>
+            <div class="label">Peer Advocacy</div>
+            <div class="value" style="font-size:1.15rem;">Someone in your corner</div>
+          </div>
+          <div class="note">Connect with advocates who amplify your voice and support your well-being.</div>
+        </div>
+        <div class="res-card counselor">
+          <div>
+            <div class="label">Safe Community</div>
+            <div class="value" style="font-size:1.15rem;">Resources that help</div>
+          </div>
+          <div class="note">Access to resources designed to help you succeed academically and personally.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="signs" class="signs">
+    <div class="wrap">
+      <h2>You don't need a crisis to reach out</h2>
+      <p>Any of these are reason enough to send a message. HeartLine isn't only for emergencies — it's for the ordinary heavy days too.</p>
+      <div class="signs-grid">
+        <a class="sign-card glass" href="#resources">
+          <h3>Trouble sleeping or eating</h3>
+          <p>Your body keeping score of stress you haven't talked about yet.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+        <a class="sign-card glass" href="#resources">
+          <h3>Falling behind and feeling stuck</h3>
+          <p>Grades slipping, motivation gone, and no idea where to start again.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+        <a class="sign-card glass" href="#resources">
+          <h3>Family or home tension</h3>
+          <p>Things at home that follow you into the classroom.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+        <a class="sign-card glass" href="#resources">
+          <h3>Friendship or relationship strain</h3>
+          <p>Conflict, isolation, or feeling like you're the outsider in your own group.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+        <a class="sign-card glass" href="#resources">
+          <h3>Feeling flat or overwhelmed</h3>
+          <p>Numbness, anxiety, or sadness that's stuck around longer than it should.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+        <a class="sign-card glass" href="#resources">
+          <h3>Worried about a friend</h3>
+          <p>You can reach out on someone else's behalf too — we'll take it from there.</p>
+          <span class="sign-cta">Reach out about this</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resources" class="resources">
+    <div class="wrap">
+      <h2>Three ways to connect</h2>
+      <p>Pick whichever feels easiest right now. All three reach the same people.</p>
+      <div class="res-grid">
+        <div class="res-card hotline">
+          <div>
+            <div class="label">Call or text</div>
+            <a class="value" href="tel:+639532639727">+63 953 263 9727</a>
+            <div class="copy-row">
+              <button class="copy-btn" type="button" data-copy="+639532639727">Copy number</button>
+            </div>
+          </div>
+          <div class="note">Fastest way to reach someone directly.</div>
+        </div>
+        <div class="res-card email">
+          <div>
+            <div class="label">Email YGA</div>
+            <a class="value" href="https://mail.google.com/mail/?view=cm&fs=1&to=youthguidanceadvocates@gmail.com" target="_blank" rel="noopener">youthguidanceadvocates@gmail.com</a>
+            <div class="copy-row">
+              <button class="copy-btn" type="button" data-copy="youthguidanceadvocates@gmail.com">Copy email</button>
+              <a class="copy-btn" href="mailto:youthguidanceadvocates@gmail.com" style="text-decoration:none;">Use mail app instead</a>
+            </div>
+          </div>
+          <div class="note">Opens a Gmail compose window — works even without a mail app set up.</div>
+        </div>
+        <div class="res-card counselor">
+          <div>
+            <div class="label">Guidance Counselor Designate</div>
+            <div class="value">Corinne Joyce Baloc</div>
+          </div>
+          <div class="note">For a face-to-face follow-up or a referral.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 style="font-size:2rem; margin-bottom:10px;">Small steps while you wait to talk</h2>
+      <p style="color:var(--ink-soft); max-width:58ch; margin-bottom:36px;">These won't replace a real conversation, but they can help in the meantime.</p>
+      <div class="steps-wrap">
+        <div class="step-card glass">
+          <h3>Name it out loud</h3>
+          <p>Saying or writing what you're feeling, even in one sentence, takes some of its weight away.</p>
+        </div>
+        <div class="step-card glass">
+          <h3>Find one person nearby</h3>
+          <p>A friend, teacher, or family member you trust — you don't have to explain everything at once.</p>
+        </div>
+        <div class="step-card glass">
+          <h3>Step outside for a bit</h3>
+          <p>Fresh air and a short walk can loosen a thought spiral, even briefly.</p>
+        </div>
+        <div class="step-card glass">
+          <h3>Keep the hotline saved</h3>
+          <p>Add +63 953 263 9727 to your contacts now, before you need it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="message" class="message glass-dark">
+    <div class="wrap">
+      <div>
+        <h2>Not ready to call? Write it down instead.</h2>
+        <p>This opens a Gmail compose window addressed to YGA, pre-filled with your note. Share as little or as much as you want — someone will read it and follow up.</p>
+      </div>
+      <form class="msg-form" id="note-form">
+        <div>
+          <label for="hl-name">Name (optional)</label>
+          <input id="hl-name" name="name" type="text" placeholder="You can leave this blank">
+        </div>
+        <div>
+          <label for="hl-msg">What's on your mind</label>
+          <textarea id="hl-msg" name="message" placeholder="Start wherever feels right..."></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send to YGA via Gmail</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="wordmark"><span>Heart</span><span>Line</span></div>
+      <p>A Youth Guidance Advocates initiative for MFNHS students, staff, and parents.</p>
+    </div>
+    <div class="foot-links">
+      <a href="tel:+639532639727">Hotline</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=youthguidanceadvocates@gmail.com" target="_blank" rel="noopener">Email</a>
+      <a href="#signs">When to reach out</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="foot-credits">
+      <img class="foot-logo" src="images/nanonova-logo.png" alt="NanoNova Robotics Club" onerror="this.style.display='none'">
+      <img class="foot-logo" src="images/programming-division-logo.png" alt="Programming Division" onerror="this.style.display='none'">
+      <span class="foot-credits-text">Built by the NanoNova Robotics Club &amp; Programming Division</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
